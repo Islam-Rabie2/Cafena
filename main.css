@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fenix&family=Poppins:wght@100;200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fenix&family=Poppins:wght@100;200;300;400;500&family=Pushster&display=swap');
-/* 
-font-family: 'Fenix', serif;
-font-family: 'Poppins', sans-serif; 
-font-family: 'Pushster', cursive;
-*/
+
 :root{
     --main-color: #c7a17a;
 }
@@ -21,56 +17,7 @@ html{
 body{
     background: #000;
 }
-.info{
-    background: #000;
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-    font-size: 14px;
-    border-bottom: 1px solid #333;
-}
 
-.info .info-left{
-    display: flex;
-}
-.info-left section:first-child{
-    margin-right: 20px;
-}
-.info-right{
-    display: flex;
-    align-items: center;
-}
-.info-right .social{
-    margin-right: 20px;
-}
-.info-right .social a{
-    margin: 0px 5px;
-    color: #FFF;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .4s ease-in-out;
-}
-.info-right .social a:hover{
-    color: var(--main-color);
-}
-.info-right .info-link a{
-    display: inline-block;
-    color: #FFF;
-    text-transform: capitalize;
-    background: var(--main-color);
-    border: 1px solid var(--main-color);
-    transition: .4s ease-in-out;
-    padding: 7px 12px;
-    border-radius: 5px;
-}
-
-.info-link a:hover{
-    border-color: #333;
-    background: transparent;
-    text-decoration: none;
-}
 header{
     position: sticky;
     top: 0;
@@ -766,16 +713,3 @@ header nav a:hover{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
